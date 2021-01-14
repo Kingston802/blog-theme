@@ -1,6 +1,6 @@
 ---
 date: 2020-12-25 
-title: Hello, World!
+title: Hello, World2!
 layout: post
 img: assets/img/helloworld.png
 ---

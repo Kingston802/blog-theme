@@ -5,14 +5,32 @@
 
   <body>
     <div class="page">
-      {{ content }}
-      <ul>
-        {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+      <h1><a href="/">tinkering</a></h1>
+      <div class="posts">
+        {{ content }}
+        <div class="posts">
+          {% for post in site.posts %}
+            <div class="post-item">
+              <img src="{{ post.img }}">
+              <div>
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <span>{{ post.date | date_to_string }}</span>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <footer>
+        <span>A technology blog by </span>
+        <h4>Alexander Bailey</h4>
+        <div class="links">
+          <a href="https://github.com/Kingston802">github</a>
+          <br>
+          <a href="https://kingston802.github.io/">portfolio</a>
+          <br>
+          <a href="https://www.linkedin.com/in/alexanderkingstonbailey/">linkedin</a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
