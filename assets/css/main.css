@@ -1,0 +1,61 @@
+---
+---
+@import "typography";
+@import "post";
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.page {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 1em;
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+h1 a {
+  color: black;
+}
+
+.post-item {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 2em;
+  justify-content: center;
+}
+.post-item img {
+  height: 2em;
+  width: 2em;
+}
+.post-item div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2em;
+}
+.post-item div h3 {
+  margin: 0;
+}
+.post-item div span {
+  color: grey;
+}
+
+.post {
+  margin-left: 2em;
+}
+.post-title {
+  margin-top: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400&display=swap');
+:root {
+  font-family: 'Sarabun', sans-serif;
+}
+a {
+  text-decoration: none;
+}
