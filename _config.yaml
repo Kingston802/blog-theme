@@ -1,3 +1,10 @@
+title: tinkering 
+description: a programming and technology blog 
+author: Alexander Bailey 
+
+plugins: 
+  - jekyll-feed
+
 highlighter: rouge 
 markdown: kramdown
 kramdown:

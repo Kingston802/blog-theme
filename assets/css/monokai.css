@@ -1,5 +1,6 @@
+/* slightly modified because of some weird colour bug I had  */
 .highlight pre { background-color: #272822; }
-.highlight { color: #f8f8f2 } /* default */
+.highlight { color: #f8f8f2 } /* default, this line I added */ 
 .highlight .hll { background-color: #272822; }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
@@ -60,7 +61,6 @@
 .highlight .vi { color: #f8f8f2 } /* Name.Variable.Instance */
 .highlight .il { color: #ae81ff } /* Literal.Number.Integer.Long */
 
-.highlight .gh { } /* Generic Heading & Diff Header */
 .highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
