@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body style="visibility: hidden;" onload="js_load()">
     <div class="page">
       <h1><a href="/tinkering/">tinkering</a></h1>
       <div class="posts">
@@ -34,6 +34,12 @@
         </div>
       </footer>
     </div>
+    <script>
+      function js_load() {
+        document.body.style.visibility='visible';
+      }
+    </script>
+    <noscript><style>body { visibility: visible; }</style></noscript>
   </body>
 </html>
 
